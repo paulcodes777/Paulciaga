@@ -1,0 +1,206 @@
+<!-- men-hoodies.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Men - PAULCIAGA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/jpg" href="images/P.jpg">
+    <style>
+        .product-card img {
+            border: 1px solid #000;
+            object-fit: cover;
+            height: 400px;
+            width: 100%;
+        }
+        .product-name {
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+        .product-price {
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+
+<!-- Reuse your navbar here -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container position-relative d-flex justify-content-between align-items-center">
+        <!-- Left menu -->
+        <div class="d-flex">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item dropdown px-2">
+                    <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Men
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="men-shoes.html">Shoes</a></li>
+                        <li><a class="dropdown-item" href="men-bags.html">Bags</a></li>
+                        <li><a class="dropdown-item" href="men-hoodies.html">Hoodies</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item dropdown px-2">
+                    <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Women
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="women-shoes.html">Shoes</a></li>
+                        <li><a class="dropdown-item" href="women-bags.html">Bags</a></li>
+                        <li><a class="dropdown-item" href="women-dresses.html">Dresses</a></li>
+                    </ul>
+                </li>
+                
+
+            </ul>
+
+         <!-- Center brand -->
+<!-- Mobile brand -->
+<div class="d-lg-none d-flex align-items-center justify-content-center">
+    <a class="navbar-brand fw-bold fs-3 me-3" href="index.html">PAULCIAGA</a>
+</div>
+
+<!-- Desktop brand -->
+<div class="d-none d-lg-flex align-items-center justify-content-center navbar-center">
+    <a class="navbar-brand fw-bold fs-3 me-3" href="index.html">PAULCIAGA</a>
+</div>
+
+        <!-- Right search -->
+        <form class="d-block" onsubmit="return customSearchRedirect()">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search">
+        </form>
+    </div>
+</nav>
+
+<!-- Men’s Collection Grid -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Men’s Shoes</h2>
+    <div class="row g-4">
+        <!-- Example product 1 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="product-card">
+                <img src="images/rick.webp" alt="Product 1">
+                <div class="text-center mt-2">
+                    <div class="product-name">rick owens</div>
+                    <div class="product-price">$950</div>
+                    <button type="button" class="btn add-btn mt-2" onclick="window.location.href='checkout.html'">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Example product 2 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="product-card">
+                <img src="images/rick2.jpg" alt="Product 2">
+                <div class="text-center mt-2">
+                    <div class="product-name">Rick owens</div>
+                    <div class="product-price">$750</div>
+                    <button type="button" class="btn add-btn mt-2" onclick="window.location.href='checkout.html'">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Example product 3 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="product-card">
+                <img src="images/rick3.avif" alt="Product 2">
+                <div class="text-center mt-2">
+                    <div class="product-name">balenciaga</div>
+                    <div class="product-price">$850</div>
+                    <button type="button" class="btn add-btn mt-2" onclick="window.location.href='checkout.html'">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Example product 4 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="product-card">
+                <img src="images/jordan4.png" alt="Product 2">
+                <div class="text-center mt-2">
+                    <div class="product-name">jordan 4</div>
+                    <div class="product-price">$750</div>
+                    <button type="button" class="btn add-btn mt-2" onclick="window.location.href='checkout.html'">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more products the same way -->
+    </div>
+</div>
+
+
+<!-- Custom Bootstrap Modal -->
+<div class="modal fade" id="searchNotFoundModal" tabindex="-1" aria-labelledby="searchNotFoundModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content custom-modal">
+        <div class="modal-body text-center">
+          <h5 class="modal-title mb-3">Search Not Found</h5>
+          <p>You will be redirected back to the homepage.</p>
+          <p>Check out our AI at the bottom right</p>
+          <button type="button" class="btn btn-dark mt-3" onclick="redirectHome()">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--footer-->
+<footer class="bg-white border-top mt-5">
+    <div class="container py-5 text-black">
+        <div class="row">
+            <!-- Company -->
+            <div class="col-6 col-md-3 mb-3">
+                <h6 class="footer-title">Company</h6>
+                <ul class="list-unstyled">
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Shop -->
+            <div class="col-6 col-md-3 mb-3">
+                <h6 class="footer-title">Shop</h6>
+                <ul class="list-unstyled">
+                    <li><a href="men-hoodies.html" class="footer-link">Men</a></li>
+                    <li><a href="women-dresses.html" class="footer-link">Women</a></li>
+                    <li><a href="men-shoes.html" class="footer-link">Shoes</a></li>
+                    <li><a href="product.html" class="footer-link">All Items</a></li>
+                </ul>
+            </div>
+
+            <!-- Support -->
+            <div class="col-6 col-md-3 mb-3">
+                <h6 class="footer-title">Support</h6>
+                <ul class="list-unstyled">
+                    <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Follow Us -->
+            <div class="col-6 col-md-3 mb-3">
+                <h6 class="footer-title">Follow Us</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.instagram.com/paulwitdashifts/" class="footer-link">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/pjmallett/" class="footer-link">linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <p class="small mb-0">&copy; 2025 PAULCIAGA. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/script.js"></script>
+</body>
+</html>
