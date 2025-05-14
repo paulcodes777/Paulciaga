@@ -17,4 +17,5 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 ### AboutPage
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/bd83c32dfb1617be62e2466190c0da8adf924581/about.png)
 
-
+### ContactPage
+![Image alt](https://github.com/paulcodes777/Paulciaga/blob/eed8196bea1ccdd2b5ee99b7307925af1eefdda1/contact.png)
