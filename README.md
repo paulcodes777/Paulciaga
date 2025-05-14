@@ -28,3 +28,6 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 
 ### Searchbar if user types nothing related or a product we don't have
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/8c5da60e0d9ccb5bff538f6a65f1f413d9864b96/search.png)
+
+### What our shop looks like 
+![Image alt](https://github.com/paulcodes777/Paulciaga/blob/476a66f50ae0ac228a87be11b631d2bc3af82034/shop.png)
