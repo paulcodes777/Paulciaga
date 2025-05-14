@@ -22,3 +22,6 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 
 ### Dropdown Menu
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/f5f2c22caff9d48ea42328127e7387318afc0d27/dropdown.png)
+
+### Working Searchbar
+![Image alt](https://github.com/paulcodes777/Paulciaga/blob/f7d8582b2cc60fb1513f5f5ddef7912ee23867dc/searchbar.png)
