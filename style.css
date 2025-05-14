@@ -1,0 +1,345 @@
+html, body {
+    background-color: #ffffff !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body > .container {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/* css/styles.css */
+
+/* General settings */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 400;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, .navbar-brand, .nav-link, .btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #000000;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+/* Nav links */
+.nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Search bar */
+.search-input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    background-color: transparent;
+    padding-left: 8px;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.search-input::placeholder {
+    color: #000;
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #000000;
+    border: none;
+    border-radius: 0;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+}
+
+.btn-dark:hover {
+    background-color: #222222;
+}
+
+/* Home images */
+.home-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #000000;
+}
+
+/* Center "Shop Now" button */
+.container .btn {
+    margin-top: 2rem;
+}
+
+/* Remove outline on focus */
+a:focus, button:focus, input:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* Fix brand overlapping on small screens */
+/* Fix brand overlapping on small screens */
+@media (min-width: 992px) {
+    .navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* Ensure product cards always have a white background */
+.product-card {
+    background-color: #ffffff !important;
+    padding: 10px;
+}
+.product-card {
+    background-color: #ffffff !important;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+/* Force product grid backgrounds to be white */
+.product-card, 
+.product-card img, 
+.col-6, 
+.col-md-4, 
+.col-lg-3 {
+    background-color: #ffffff !important;
+}
+/* ----------------- Luxury Dropdown ----------------- */
+
+/* Show dropdown on hover */
+.navbar-nav .dropdown:hover > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* Base dropdown menu styles */
+.dropdown-menu {
+    border: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none !important;
+    background-color: #ffffff;
+    min-width: 200px;
+    margin-top: 0;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(10px);
+    visibility: hidden;
+    transition: all 0.25s ease;
+}
+
+/* Dropdown items */
+.dropdown-item {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #000 !important;
+    padding: 16px 24px;
+}
+
+/* On hover: no color, subtle background */
+.dropdown-item:hover, 
+.dropdown-item:focus {
+    background-color: #f2f2f2 !important;
+    color: #000 !important;
+}
+
+/* Add extra spacing around the navbar dropdowns */
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+/* Remove focus outlines for cleaner look */
+a:focus, button:focus, input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ----------------- Custom Modal Styling ----------------- */
+.custom-modal {
+    border: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.custom-modal .modal-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.custom-modal p {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.custom-modal .btn {
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ----------------- Sectioned Footer Style ----------------- */
+.footer-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+/* ----------------- Luxury Footer Dividers ----------------- */
+@media (min-width: 768px) {
+    footer .row > div:not(:last-child) {
+        border-right: 1px solid #000;
+    }
+}
+
+
+
+
+/* ----------------- AI Assistant Button Grid ----------------- */
+
+/* Floating button */
+#aiAssistantButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Assistant panel */
+#aiAssistantPanel {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+/* Panel header */
+.panel-header {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Button grid */
+.panel-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 10px;
+}
+
+/* Buttons */
+.panel-options button {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 12px 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.panel-options button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    #aiAssistantPanel {
+        width: 90%;
+        right: 5%;
+    }
+    #aiAssistantButton {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+}
+
+
+/* ----------------- Assistant Panel Animation ----------------- */
+
+/* Start hidden with scale down */
+#aiAssistantPanel {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+/* When active: scale up + fade in */
+#aiAssistantPanel.active {
+    display: flex;
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
