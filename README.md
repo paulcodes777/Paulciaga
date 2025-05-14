@@ -6,6 +6,7 @@ Paulciaga is a personal front-end e-commerce demo project I built to practice we
 
 Feature
 |    |  |
+
 Home page
 
 Men’s hoodies product page
@@ -21,6 +22,7 @@ Clean project structure and asset management
 
 Technologies Used
   |     |    |
+  
 HTML5
 
 CSS3
