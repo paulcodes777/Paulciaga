@@ -31,3 +31,6 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 
 ### What our shop looks like 
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/476a66f50ae0ac228a87be11b631d2bc3af82034/shop.png)
+
+### CheckoutPage
+![Image alt](https://github.com/paulcodes777/Paulciaga/blob/eaccab93a5ff42523b898c5a24f3e297aadf3985/checkout.png)
