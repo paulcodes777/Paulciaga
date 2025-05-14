@@ -25,3 +25,6 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 
 ### Working Searchbar
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/f7d8582b2cc60fb1513f5f5ddef7912ee23867dc/searchbar.png)
+
+### Searchbar if user types nothing related or a product we don't have
+![Image alt](https://github.com/paulcodes777/Paulciaga/blob/8c5da60e0d9ccb5bff538f6a65f1f413d9864b96/search.png)
