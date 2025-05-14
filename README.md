@@ -11,9 +11,10 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 ### Homepage
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/34be1dc49a54432fd2e36b3e0e332888f87ecaaa/home.png)
 
-
 ### AI 
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/df00e1001a24a62e9c1bdf219a2c93ce345efd47/AI.png)
 
 ### AboutPage
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/bd83c32dfb1617be62e2466190c0da8adf924581/about.png)
+
+
