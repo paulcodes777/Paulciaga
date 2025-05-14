@@ -9,4 +9,4 @@ In my Paulciaga project, I designed and built a full multi-page front-end e-comm
 ![Image alt](https://github.com/paulcodes777/Paulciaga/blob/86cdab6a4be3c1c9905da1a7a68a2c882a1c7edd/Screenshot%202025-05-14%20121645.png)
 
 ### Homepage
-![Image alt](https://github.com/paulcodes777/Paulciaga/blob/86cdab6a4be3c1c9905da1a7a68a2c882a1c7edd/Screenshot%202025-05-14%20121645.png)
+![Image alt](https://github.com/paulcodes777/Paulciaga/blob/34be1dc49a54432fd2e36b3e0e332888f87ecaaa/home.png)
